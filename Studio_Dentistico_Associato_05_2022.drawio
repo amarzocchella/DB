@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T05:44:45.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="EJjn3Iz8B3gXcIjHfWQn" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T05:46:44.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="nfUfpT8bFTqN7_y1mqCI" version="18.0.3" type="github">
   <diagram id="L1j2D4mzBUiIxQzNPNXT" name="Page-1">
     <mxGraphModel dx="1038" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="G56ryyFdqMxWQ_o4h2ej-6" value="&#xa;Cliente" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="610" y="600" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="G56ryyFdqMxWQ_o4h2ej-7" value="CodCliente         {PK}&#xa;Cognome&#xa;Nome&#xa;Indirizzo&#xa;Tel&#xa;DataDiNscita&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=0" parent="G56ryyFdqMxWQ_o4h2ej-6" vertex="1">
+        <mxCell id="G56ryyFdqMxWQ_o4h2ej-7" value="CodCliente         {PK}&#xa;Cognome&#xa;Nome&#xa;Indirizzo&#xa;Tel&#xa;Cell&#xa;DataDiNscita&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=0" parent="G56ryyFdqMxWQ_o4h2ej-6" vertex="1">
           <mxGeometry y="38" width="160" height="122" as="geometry" />
         </mxCell>
         <mxCell id="G56ryyFdqMxWQ_o4h2ej-8" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;exitX=1;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="T7YAln1bSrvXzUfDDgCb-1">
@@ -58,7 +58,7 @@
         <mxCell id="T7YAln1bSrvXzUfDDgCb-1" value="&#xa;Medico" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="40" y="300" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="T7YAln1bSrvXzUfDDgCb-2" value="CodMedico         {PK}&#xa;Cognome&#xa;Nome&#xa;Indirizzo&#xa;Tel&#xa;DataDiNscita&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=0" parent="T7YAln1bSrvXzUfDDgCb-1" vertex="1">
+        <mxCell id="T7YAln1bSrvXzUfDDgCb-2" value="CodMedico         {PK}&#xa;Cognome&#xa;Nome&#xa;Indirizzo&#xa;Tel&#xa;Cell&#xa;DataDiNscita&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=0" parent="T7YAln1bSrvXzUfDDgCb-1" vertex="1">
           <mxGeometry y="38" width="160" height="122" as="geometry" />
         </mxCell>
         <mxCell id="T7YAln1bSrvXzUfDDgCb-3" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;rounded=1;endFill=1;startFill=1;elbow=vertical;exitX=1.022;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.022;entryY=0.128;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="P5sWvy1uf68khmVUnmsY-7" source="P5sWvy1uf68khmVUnmsY-1">
